@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="base.css">
+    <script src="./js/app.js" defer></script>
+    <link rel="stylesheet" href="./css/trangchu.css">
+    <link rel="stylesheet" href="./css/sanpham.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="./css/sanpham.css">
+    <script src="./js/sanpham.js" defer></script>
+    <title>Trang chủ</title>
+</head>
+<style>
+  
+    h5,
+    p{
+        color: rgb(76, 157, 177);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: bold; 
+        text-align: center;
+    }
+    button:hover{
+        background-color:rgb(76, 157, 177);
+    }
+    
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img class="logo" src="image/logo.png" width="150" height="90px">
+            </div>
+            <div class="header_nav">
+                <a href="./trangchu.html" class="header_button">Trang chủ</a>
+                <a href="./gioithieu.html" class="header_button">Giới thiệu</a>
+                <a href="./sanpham.html" class="header_button">Sản phẩm</a>
+                <a href="./tintuc.html" class="header_button">Tin tức</a>
+                <a href="./dangnhap.html" class="header_button">Đăng nhập</a>
+                <a href="./dangky.html" class="header_button">Đăng ký</a>
+                <a href="./lienhe.html" class="header_button">Liên hệ</a>
+                <div class="search_wrapper"
+                    <input placeholder="Nhập nội dung cần tìm" type="text">
+                    <div class="search_button">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="search_button">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="sp_1"></div>
+            <div class="sp_2"></div>
+            <div class="sp_3"></span>
+            </div>
+        </div>
+        <marquee class="TDA">Chào mừng bạn đã đến với tiệm bách hóa TDA MART.</marquee>
+        <main class="container" style="margin-bottom: 20px;">
+            <p>Sản phẩm được yêu thích nhất 2022</p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12">
+                    <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+
+                        <div class="carousel-inner rounded border border-light">
+                            <div class="carousel-item active">
+                                <img src="image/pepsi.jpg" width="500px" height="500px" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Nước uống Pepsi vị chanh không calo</h5>
+                                    <p>24 lon nước ngọt Pepsi Cola 330ml.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image/Trung-Nguyên-01.jpg" width="500px" height="500px" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Cà phê Trung Nguyên</h5>
+                                    <p> Túi 500 Gram.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image/kinh-đô-01.jpg" width="500px" height="500px" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Bánh mì Kinh Đô</h5>
+                                    <p>Khối lượng tịnh: 80g</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden"></span>
+                        </button>
+                    </div>
+                    <div>
+
+                    </div>
+
+                </div>
+                <hr>
+                <br>
+                <h1 class="page_title">
+                    SẢN PHẨM MỚI NHẤT 2022
+                </h1>
+                <div class="products_list">
+
+                    <div class="product">
+                        <div class="product_wrapper">
+                            <img src="./image/kinh-đô-01.jpg" width=400px" alt="bánh mì tươi Kinh Đô">
+                            <h2 class="product_title">
+                                Bánh mì tươi
+                            </h2>
+                            <p class="product_description"> Bánh mì tươi 6 múi chà bông Kinh Đô gói 80g.
+                                <br>
+                                <a href="details.html">Xem chi tiết</a>
+                            </p>
+                            <div class="product_nav">
+                                <p>Số lượng</p>
+                                <input type="number" />
+                                <button>
+                                    Đặt hàng
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="product">
+                        <div class="product_wrapper">
+                            <img src="./image/kinh-đô-02.jpg" width="400px" alt="bánh mì tươi Kinh Đô">
+                            <h2 class="product_title">
+                                Bánh bông lan
+                            </h2>
+                            <p class="product_description">
+                                Bánh bông lan tươi bơ nho Kinh Đô gói 38g.
+                                <br>
+                                <a href="details.html">Xem chi tiết</a>
+                            </p>
+                            <div class="product_nav">
+                               <p>Số lượng</p>
+                                <input type="number" />
+                                <button>
+                                    Đặt hàng
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="product">
+                        <div class="product_wrapper">
+                            <img src="./image/kinh-đô-03.jpg" width="400px" alt="c2">
+                            <h2 class=" product_title">
+                                Bánh mì sandwich
+                            </h2>
+                            <p class="product_description">
+                                Bánh mì sandwich bơ đậu phộng Kinh Đô gói 40g. <br>
+                                <a href="details.html">Xem chi tiết</a>
+                            </p>
+                            <div class="product_nav">
+                                <p>Số lượng</p>
+                                <input type="number" />
+                                <button>
+                                    Đặt hàng
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="product">
+                        <div class="product_wrapper">
+                            <img src="./image/Pepsi-01.jpg" width="400px" alt="Pepsi">
+                            <h2 class=" product_title">
+                              Pepsi không calo
+                            </h2>
+                            <p class="product_description">
+                                6 lon nước ngọt Pepsi không calo 320ml.
+                                <a href="#">Xem chi tiết</a>
+                            </p>
+                            <div class="product_nav">
+                                <p>Số lượng</p>
+                                <input type="number" />
+                                <button>
+                                    Đặt hàng
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product_wrapper">
+                            <img src="./image/pepsi-02.jpg" width="400px" alt="pepsi">
+                            <h2 class=" product_title">
+                            Pepsi Light
+                            </h2>
+                            <p class="product_description">
+                                Nước ngọt Pepsi Light lon 330ml.
+                                <br>
+                                <a href="#">Xem chi tiết</a>
+                            </p>
+                            <div class="product_nav">
+                                <p>Số lượng</p>
+                                <input type="number" />
+                                <button>
+                                    Đặt hàng
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="product">
+                        <div class="product_wrapper">
+                            <img src="./image/pepsi.jpg" width="300px" alt="pepsi">
+                            <h2 class=" product_title">
+                                Nước uống Pepsi
+                            </h2>
+                            <p class="product_description">
+                                24 lon nước ngọt Pepsi Cola 330ml
+                                <a href="#">Xem chi tiết</a>
+                            </p>
+                            <div class="product_nav">
+                                <p>Số lượng</p>
+                                <input type="number" />
+                                <button>
+                                    Đặt hàng
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product_wrapper">
+                            <img src="./image/Trung-Nguyên-01.jpg" width="300px" alt="sprite">
+                            <h2 class=" product_title">
+                                Cà phê Khát Vọng chữ I
+                            </h2>
+                            <p class="product_description">
+                                Cà phê Trung Nguyên I – Màu nước nâu đậm. – Hương thơm nồng. – Vị đậm đà đặc trưng. Khối lượng: Bịch 500gr. <br>
+                                 <a href="#">Xem chi tiết</a> <br>
+                            </p>
+                            <div class="product_nav">
+                                <p>Số lượng</p>
+                                <input type="number" />
+                                <button>
+                                    Đặt hàng
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product_wrapper">
+                            <img src="./image/Trung-Nguyên-02.jpg" width="300px" alt="sting">
+                            <h2 class=" product_title">
+                                Cà phê Chế phin 3
+                            </h2>
+                            <p class="product_description">
+                                Cà phê chế phin số 3 mang đặc tính riêng biệt nhất của cà phê Việt Nam. Đặc sắc văn hóa cà phê Việt Nam. <br>
+                                <a href="#">Xem chi tiết</a>
+                            </p>
+                            <div class="product_nav">
+                                <p>Số lượng</p>
+                                <input type="number" />
+                                <button>
+                                    Đặt hàng
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product">
+                        <div class="product_wrapper">
+                            <img src="./image/Trung-Nguyên-03.jpg" width="280px" alt="nước suối">
+                            <h2 class=" product_title">
+                                Cà phê Sáng tạo 1
+                            </h2>
+                            <p class="product_description">
+                                Cà phê được chế biến từ những hạt cà phê Culi Robusta ngon nhất, có hương thơm nhẹ, đậm và nước pha màu nâu đen
+                                <br>
+                                <a href="#">Xem chi tiết</a>
+                            </p>
+                            <div class="product_nav">
+                                <p>Số lượng</p>
+                                <input type="number" />
+                                <button>
+                                    Đặt hàng
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </main>
+
+        <footer>
+            <footer>
+              &copy; 2022 Bản quyền thuộc về TDA Mart.
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-pinterest"></i>
+                <a href="#" class="to_top"></a>
+            </footer>
+        </footer>
+    </div>
+</body>
+
+</html>
